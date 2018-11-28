@@ -1,7 +1,7 @@
 # multi-docker
 [![Build Status](https://travis-ci.org/theuncleshege/multi-docker.svg?branch=master)](https://travis-ci.org/theuncleshege/multi-docker)
 
-A multiple docker-containerized project hosted on AWS Elastic Beanstalk.
+A multiple docker-containerized project hosted on <b>AWS Elastic Beanstalk</b>.
 
 It is a simple Fibonacci calculator but intentionally developed in a complex way to demonstrate how to structure and deploy a CI/CD pipeline with multiple docker containers on AWS.
 
@@ -21,3 +21,5 @@ The tech stack involved in this project include:
 - Amazon RDS - For PostgresSQL database
 - Travis CI - For CI/CD
 - AWS Elastic Beanstalk - For hosting
+
+There is a <b>Google Kubernetes Engine version [here](https://github.com/theuncleshege/multi-docker-k8s)</b>
